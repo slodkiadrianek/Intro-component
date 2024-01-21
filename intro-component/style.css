@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root{
+    /* ### Primary */
+    --Red: hsl(0, 100%, 74%);
+    --Green: hsl(154, 59%, 51%);
+    /* ### Accent */
+    --Blue: hsl(248, 32%, 49%);
+    /* ### Neutral */
+    --DarkBlue: hsl(249, 10%, 26%);
+    --GrayishBlue: hsl(246, 25%, 77%);
+    --Font: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url(images/bg-intro-desktop.png);
+    background-color: var(--Red);
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0vmax 10vmax;
+    overflow-y: hidden;
+}
+main{
+    display: flex;
+    
+}
+.left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right{
+    width: 50%;
+}
+.left__h1{
+    margin-top: -1.5vmax;
+    font-family: var(--Font);
+    font-size: 3.2vmax;
+    line-height:  4.5vmax;
+    color: whitesmoke;
+    margin-bottom: 0vmax;
+}
+.left__p{
+    font-family: var(--Font);
+    font-size: 1.2vmax;
+    color: whitesmoke;
+}
+.right__arcticle__first{
+    background-color: var(--Blue);
+    border-radius: .6vmax;
+}
+.right__h2{
+    text-align: center;
+    color: whitesmoke;
+    font-family: var(--Font);
+    padding: 1vmax;
+    font-weight: 400;
+    font-size: 1vmax;
+}
+.right__span__first{
+    font-weight: 600;
+}
+.right__arcticle__second{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+
+}
+.right__form{
+   
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    border-radius: .6vmax;
+    padding: 2vmax;
+    padding-top: 3vmax;
+    gap: .7vmax;
+}
+.right__input{
+    border-radius: .5vmax;
+    border: 1px solid var(--GrayishBlue);
+    font-family: var(--Font);
+    font-size: 1vmax;
+    padding: 1vmax;
+    font-weight: 600;
+}
+.right__btn{
+    background-color: var(--Green);
+    padding: 1vmax;
+    font-family: var(--Font);
+    color: whitesmoke;
+    font-size: 1vmax;
+    text-transform: uppercase;
+    letter-spacing: .3vmax;
+    font-weight: 600;
+    border-radius: .3vmax;
+    border: none;
+    cursor: pointer;
+}
+.right__p{
+    text-align: center;
+    color: var(--GrayishBlue);
+    font-family: var(--Font);
+}
+.right__span__second{
+    color: var(--Red);
+}
+.right__error__label{
+text-align: right;
+margin-right: 1vmax;
+font-family: var(--Font);
+color: var(--Red);
+font-style: italic;
+}
+.hidden{
+    display: none;
+}

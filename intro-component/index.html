@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro component</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon-32x32.png">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <main>
+        <section class="left">
+            <article class="left__arcticle">
+                <h1 class="left__h1">Learn to code by watching others</h1>
+                <p class="left__p">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how
+                developers think is invaluable.</p>
+            </article>
+        </section>
+        <section class="right">
+            <article class='right__arcticle__first'>
+                <h2 class="right__h2"><span class="right__span__first">Try it free 7 days</span> then $20/mo. thereafter</h2>
+            </article>
+            <article class="right__arcticle_second">
+                <form class="right__form" action="">
+                    <input class="right__input" id="firstName" type="text" placeholder="First Name">
+                    <label class="right__error__label hidden" for="firstName">First Name cannot be empty</label>
+                    <input class="right__input" id="lastName" type="text" placeholder="Last Name">
+                    <label class="right__error__label hidden" for="lastName"> Last Name cannot be empty </label>
+                    <input class="right__input" id="email" type="email" placeholder="Email Address ">
+                    <label class="right__error__label hidden" for="email">Looks like this is not an email</label>
+                    <input class="right__input" id="password" type="password" placeholder="Password">
+                    <label class="right__error__label hidden" for="password">Password cannot be empty</label>
+                    <button class="right__btn">Claim your free trial</button>
+                    <p class="right__p">By clicking the button, you are agreeing to our <span class="right__span__second">Terms and Services</span> </p>
+                </form>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
