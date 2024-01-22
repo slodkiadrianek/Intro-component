@@ -30,6 +30,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .right{
@@ -42,6 +43,7 @@ main{
     line-height:  4.5vmax;
     color: whitesmoke;
     margin-bottom: 0vmax;
+   
 }
 .left__p{
     font-family: var(--Font);
@@ -117,4 +119,26 @@ font-style: italic;
 }
 .hidden{
     display: none;
+}
+
+@media (max-width: 1100px){
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    body{
+        padding: 0vmax 1vmax;
+    }
+    .right {
+        width: 100%;
+    }
+    .left {
+        width: 100%;
+    }
+    .left__h1{
+        text-align: center;
+    }
+    .left__p{
+        text-align: center;
+    }
 }
