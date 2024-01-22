@@ -73,6 +73,7 @@ rightBtn.addEventListener('click', function(e){
      x.push(1)
      console.log(Accounts);
      firstName.value = lastName.value = email.value = password.value = ''
+     console.log(x);
 })
 
 
